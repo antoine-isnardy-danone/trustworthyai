@@ -1,0 +1,1 @@
+.. mdinclude:: ../../pillars/environmentalsocietal.md
