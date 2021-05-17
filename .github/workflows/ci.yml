@@ -1,8 +1,11 @@
 name: ci
 
-on: [push]
+on:
+  push:
+    branches:
+      - master
 
-jobs:
+jobs:ci:
   ci:
     runs-on: "ubuntu-latest"
     defaults:
