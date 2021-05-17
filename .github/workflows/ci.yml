@@ -5,7 +5,7 @@ on:
     branches:
       - master
 
-jobs:ci:
+jobs:
   ci:
     runs-on: "ubuntu-latest"
     defaults:
