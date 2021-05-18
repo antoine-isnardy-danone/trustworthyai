@@ -121,3 +121,6 @@ pre {
   border-radius: 5px;
 }
 
+div.body {
+    max-width: 1200px;
+}
