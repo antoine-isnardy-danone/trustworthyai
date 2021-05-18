@@ -3,9 +3,10 @@ Trustworhy AI
 
 In line with the European Union recommendations, we aim to act responsibly, create and promote an AI that is lawful, ethical and robust. It is important to ensure the protection of fundamental (human) rights and user safety, in line with EU regulations.
 
+[PLACEHOLDER WHY AND HOW TO READ IT?]
+
 Content
 -------
-To zoom in some specific blocks, please browse the links below
 
 .. toctree::
    :maxdepth: 1
