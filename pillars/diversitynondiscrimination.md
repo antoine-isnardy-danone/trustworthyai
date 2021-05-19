@@ -22,7 +22,7 @@ AI contributors must foster the creation of bias-free AI systems and give themse
     <li><i>Quantify the risk of breach of fairness on identified sensitive populations, through the use of metrics, including but not limited to: statistical parity difference, equal opportunity difference, average odds difference, disparate impact, theil index </i></li>
     <li><i>Correct bias, through the use of algorithms, including but not limited to: reweighting, optimized pre-processing, adversarial debiasing, reject option based classification</i></li>
 </ul>
-<details>
+</details>
 Practically: AI Fairness 360 by IBM, ethicalai,
 
 
