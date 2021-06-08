@@ -10,7 +10,7 @@ AI contributors must evaluate the risk and criticality of an AI system among:
 - **Minimal Risk**: the AI system is not subject to regulation
 
 <details>
-    <summary>Definitions</summary>
+    <summary>Definitions (click to unfold)</summary>
 
 Directly quoted from [ec.europa.eu](https://ec.europa.eu/commission/presscorner/detail/en/IP_21_1682)
 
@@ -39,19 +39,21 @@ AI contributors must be sensitised to Machine Learning security, especially when
 
 AI contributors must comply with development standards to ease reliability, readability of procedures and handovers.
 
-<details>
-    <summary>Practically, enforce <a href="https://github.com/danone/daai.data-science-best-practices">Danone's Data Science best practices</a></summary>
+Practically, enforce [Danone's Data Science best practices](https://github.com/danone/daai.data-science-best-practices) that lie among:
 
 - Code documentation
+
 - Unit tests
+
 - Data tests
+
 - Pipeline tests
+
 - Code reviews
+
 - Use of linter
+
 - Use of formatters
-
-</details>
-
 ## Data project lifecycle safety
 
 | Project phase  | Guideline  | Practical consequences  |
