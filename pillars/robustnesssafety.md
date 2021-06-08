@@ -54,6 +54,7 @@ Practically, enforce [Danone's Data Science best practices](https://github.com/d
 - Use of linter
 
 - Use of formatters
+
 ## Data project lifecycle safety
 
 | Project phase  | Guideline  | Practical consequences  |
