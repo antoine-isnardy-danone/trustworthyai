@@ -9,7 +9,7 @@ Trustworhy AI
 
 In line with the European Union recommendations, we aim to act responsibly, create and promote an AI that is lawful, ethical and robust. It is important to ensure the protection of fundamental (human) rights and user safety.
 
-This document is structured following 7 principles identified by the EU about AI trustworthiness. Note that it is already a bias to consider trustworthiness through that "fixed" prism. However, we believe it provides a decent coverage of all dimensions involved in AI trustworthiness.
+This document gathers a set of concrete guidelines, structured around 7 principles identified by the EU about AI trustworthiness. Note that it is already a bias to consider trustworthiness through that "fixed" prism. However, we believe it provides a decent coverage of all dimensions involved in AI trustworthiness.
 
 Content
 -------
