@@ -10,13 +10,15 @@ AI contributors should always clearly and timely communicate results to stakehol
 
 - Keep a faithful representation of results and do not give in to confirmation bias 
   
-- Make an outreach effort regarding AI algorithms: clearly state AI models assumptions, their advantages and potential pitfalls so that decision makers can take informed decisions. Example: qualify results of a facial recognition algorithm that would be based (pretrained) on the ImageNet dataset, which is now well known for containaing bias and errors (see this [link](https://venturebeat.com/2021/03/28/mit-study-finds-systematic-labeling-errors-in-popular-ai-benchmark-datasets/) e.g.)
+- Make an outreach effort regarding AI algorithms: clearly state AI models assumptions, their advantages and potential pitfalls so that decision makers can take informed decisions. Example: qualify results of a facial recognition algorithm that would be based (pretrained) on the ImageNet dataset, which is now well known for containing bias and errors (see this [link](https://venturebeat.com/2021/03/28/mit-study-finds-systematic-labeling-errors-in-popular-ai-benchmark-datasets/) e.g.)
 
 ## AI contributor's management
 
 AI contributors should always be put in a favourable condition by the management to give the alert in case of fraudulent, illegal, illegitimate, discriminatory or unethical results. Example: use of legitimate information when it comes to consumer scoring (in marketing e.g.)
 
-## AI interpretability
+## AI explicability
+
+AI explicability aims at creating numerical methods to extract the logics behind an AI system's decision.
 
 AI contributors must be sensitised and extensively leverage machine learning interpretability literature to:
 
@@ -24,11 +26,11 @@ AI contributors must be sensitised and extensively leverage machine learning int
   
 - Empower business users and foster machine learning adoption.
 
-- Understand and trace decisions made by an AI system.
+- Understand results output by an AI system (characteristics & information that were leveraged and which ones play an important role, decision frontier of the system, ...) and trace decisions made by an AI system over time.
 
 That being said, AI contributors should master a various set of tools, depending on the AI system that is implemented.
 
-### Statistical regressions
+### Statistical methods
 
 AI contributors must deeply understand how to interpret coefficients and leverage econometrics-based models, like linear / logistic regression, panel data, instrumental variables, censored data, selection model, ...
 
@@ -68,3 +70,17 @@ It is important to study both global interpretation (at model level) and local i
 Not only machine learning interpretability eventually enables AI systems to be trusted by business users, but it also unlocks prescriptive machine learning. Predictions bring value, but actions taken upon new predictions bring even more value. Interpretability might be a way to prescriptive analysis.
 
 Example: for a churn model, it is important to identify high-risk consumers. It is even more important to identify why they are risky, and the actions that could be taken to decrease their risk. This can be performed by producing logical and interpretable rules that describe this set of risky people. [Skope-rules](https://github.com/scikit-learn-contrib/skope-rules) is a candidate ([Source](https://app.livestorm.co/quantmetry/meetup-ai-engineering-7-lethique-and-intelligibilite-en-application/live?s=3d1742f7-c41f-4f6e-9087-9931f39d7a16#/chat) for the full methodology - in French).
+
+## AI transparency
+
+While creating an AI system, AI contributors should enforce the system's transparency, namely:
+
+- Document the method / theory behind the AI system.
+
+- Document, and ideally make public (or available within the company), the implementation (code) of the AI system. 
+
+- Document, and ideally make public (or available within the company), the data the AI system was trained on. 
+
+Transparency allows to challenge the AI system's weaknesses, challenge potential pitfalls of the training data, which in turns helps to check legal & ethical compliance, and to protect individuals.
+
+Source: [[FR] Transparence et explicabilité des algorithmes, la grande confusion](https://amp-lepoint-fr.cdn.ampproject.org/c/s/amp.lepoint.fr/2430716)
