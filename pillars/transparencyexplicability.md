@@ -1,6 +1,6 @@
 # Transparency and explicability
 
-Humans subject to an AI system have the right to be informed that they are interacting with an AI system, and as such an option to decide against this interaction in favour of human interaction should be provided to ensure compliance with fundamental rights.
+Transparency and explicability are two fundamental and distinct notions when it comes to AI systems. Explicability aims at understanding the logic behind an algorithm while transparency aims at making "public" (totally or partially - within the scope of an organisation e.g.) the AI system and anything that lives with it (data, ...).
 
 ## Communication
 
@@ -14,7 +14,15 @@ AI contributors should always clearly and timely communicate results to stakehol
 
 ## AI contributor's management
 
-AI contributors should always be put in a favourable condition by the management to give the alert in case of fraudulent, illegal, illegitimate, discriminatory or unethical results. Example: use of legitimate information when it comes to consumer scoring (in marketing e.g.)
+AI contributors should always be put in a favourable condition by the management to give the alert in case of fraudulent, illegal, illegitimate, discriminatory or unethical results. Example: use of legitimate information when it comes to consumer scoring (in marketing e.g.).
+
+A clear and shared escalation process should be defined upon a new AI system implementation. Escalations should be put in writing and documented. It could take the following form:
+
+1. Report the alert to the project's team
+
+2. If no arbitrage could be made, report the alert to the project's sponsor & management
+
+3. If no arbitrage could be made, report the alert to the Data Protection Officer & legal departments
 
 ## AI explicability
 
@@ -26,7 +34,7 @@ AI contributors must be sensitised and extensively leverage machine learning int
   
 - Empower business users and foster machine learning adoption.
 
-- Understand results output by an AI system (characteristics & information that were leveraged and which ones play an important role, decision frontier of the system, ...) and trace decisions made by an AI system over time.
+- Understand results output by an AI system (characteristics & information that were leveraged and which ones play an important role, decision frontier of the system, behavior of internal blocks of the AI system, like hidden layers of neural network e.g., ...) and trace decisions made by an AI system over time.
 
 That being said, AI contributors should master a various set of tools, depending on the AI system that is implemented.
 
@@ -34,7 +42,7 @@ That being said, AI contributors should master a various set of tools, depending
 
 AI contributors must deeply understand how to interpret coefficients and leverage econometrics-based models, like linear / logistic regression, panel data, instrumental variables, censored data, selection model, ...
 
-Examples with regression coefficients:
+Example with linear regression coefficients:
 
 | Model | Target | Feature | Math. interpretation | Plain interpretation |
 | --- | --- | --- | --- | --- |
