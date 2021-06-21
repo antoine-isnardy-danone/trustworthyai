@@ -2,8 +2,8 @@
     :width: 70%
     :align: center
 
-Trustworhy AI
--------------
+Trustworthy AI
+--------------
 
 [Read time: 45 min]
 
