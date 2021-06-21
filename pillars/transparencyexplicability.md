@@ -1,6 +1,6 @@
 # Transparency and explicability
 
-Transparency and explicability are two fundamental and distinct notions when it comes to AI systems. Explicability aims at understanding the logic behind an algorithm while transparency aims at making "public" (totally or partially - within the scope of an organisation e.g.) the AI system and anything that lives with it (data, ...).
+Transparency and explicability are two fundamental and distinct notions when it comes to AI trustworthiness. While explicability aims at understanding the logic behind an algorithm, transparency aims at making "public" (totally or partially - within the scope of an organisation e.g.) the AI system and anything that lives with it (data, ...).
 
 ## Communication
 
@@ -16,7 +16,7 @@ AI contributors should always clearly and timely communicate results to stakehol
 
 AI contributors should always be put in a favourable condition by the management to give the alert in case of fraudulent, illegal, illegitimate, discriminatory or unethical results. Example: use of legitimate information when it comes to consumer scoring (in marketing e.g.).
 
-A clear and shared escalation process should be defined upon a new AI system implementation. Escalations should be put in writing and documented. It could take the following form:
+A clear and shared escalation process should be defined upon a new AI system implementation in agreement with all stakeholders' initiative. Escalations should be put in writing and documented. In case of potential breach of trust, the escalation process could take the following form:
 
 1. Report the alert to the project's team
 
@@ -92,3 +92,12 @@ While creating an AI system, AI contributors should enforce the system's transpa
 Transparency allows to challenge the AI system's weaknesses, challenge potential pitfalls of the training data, which in turns helps to check legal & ethical compliance, and to protect individuals.
 
 Source: [[FR] Transparence et explicabilité des algorithmes, la grande confusion](https://amp-lepoint-fr.cdn.ampproject.org/c/s/amp.lepoint.fr/2430716)
+
+## Appendix - Recommendations from the EU
+Below are the recommendations directly reported from [EU](https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai).
+
+.. image:: ./_static/transparency_1.png
+
+.. image:: ./_static/transparency_2.png
+
+.. image:: ./_static/transparency_3.png
