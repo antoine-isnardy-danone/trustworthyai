@@ -33,7 +33,17 @@ Directly quoted from <a href="https://ec.europa.eu/commission/presscorner/detail
 
 ## Security
 
-AI contributors must be sensitised to Machine Learning security, especially when working on sensitive applications.[PLACEHOLDER FOR DOCUMENTATION]
+Artificial Intelligence is no exception when it comes to security: AI systems are exposed to a wide range of attacks. Consequently, AI contributors must be sensitised to Machine Learning security and enforce security audits, especially when humans are impacted by an AI system decision. Attacks lie among:
+
+| Attack | Description | Defense |
+| ------ | ------ | ------|
+| Data poisoning | Malicious individuals access data they're not authorized to and alter them before an AI system training (in the case of a credit score e.g., change the target from "deny" to "accept" for a certain subset of the population) | <ul><li><b>Disparate impact analysis</b> to study positive or negative discriminations (see the non discrimination section)</li><li><b>RONI</b>: reject on negative impact. Remove any individual from the training set that would make the accuracy abnormally decrease</li><li><b>Self reflection</b>: look for abnormal beneficial predictions</li></ul> |
+| Backdoors and watermarks| Code of an AI system is compromised by malicious individuals so that water-marked data can lead the faulty AI system to produce desired outcome (if the AI system is a decision tree e.g., add a faulty leaf that would output a compromised decision) |<ul><li><b>Version control</b>: AI system code must be versioned through a version control tool, most likely Git</li><li><b>Data integrity constraints</b> not to allow unrealistic combinations of data</li></ul>|
+| Surrogate model inversion | If an AI system is served through an API, malicious individuals can simulate data, query the API and receive predictions from the AI system, and in turn build a surrogate model that could: <ul><li>Expose the business logic</li><li>Reveal sensitive information regarding the data that were used to train the AI system</li><li>Facilitate a membership inference attack</li><li>Facilitate production of adversarial examples</li></ul> | <ul><li><b>Authentication</b>: authenticate API users, or more generally any endpoint that would give access to the AI system predictions</li><li><b>Throttling</b>: decrease response time of the API so that malicious individuals can only access a limited number of predictions</li><li><b>White-hat surrogate</b>: act as a hacker and train a surrogate model to collect learnings about what malicious individuals could have access to</li></ul> |
+| Membership inference | If an AI system is served through an API, malicious individuals could know if an individual / a row was present in the training dataset, and in turn violate individual or group privacy, by:<ul><li>Training a surrogate model (see above)</li><li>Simulating new data points and scoring them with the surrogate model</li><li>Training a new model that discriminates between data points present in the training set or not</li></ul>|<ul><li>Above defense</li><li><b>Prediction monitoring</b>: monitor data used to query the API and check similarity with training data</li></ul>|
+| Adversarial example | If an AI system is served through an API, malicious individuals can simulate data, query the API, get predictions and in turn learn how to trick the AI system to receive a desired outcome | <ul><li>Above defense</li><li><b>White-hat sensitivity analysis</b>: try to trick the AI system with different input values</li></ul> |
+
+Source: [H20AI](https://github.com/h2oai/ml-security-audits)
 
 ## Development robustness
 
