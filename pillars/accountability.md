@@ -11,7 +11,7 @@ Evaluation by internal (within Danone) and external (specialized agency) auditor
 
 As a starting point for auditing AI, one could leverage [ISACA's COBIT (2019)](https://community.mis.temple.edu/mis5203sec001sp2019/files/2019/01/COBIT-2019-Framework-Introduction-and-Methodology_res_eng_1118.pdf) framework. Explanation of how to apply this framework for AI projects (including for example metrics) can be found in this [document](https://ec.europa.eu/futurium/en/system/files/ged/auditing-artificial-intelligence.pdf).
 
-<i> For more information on this subject, in particular regarding security and risks, one could also have a look at the 'security' section of the <a href="https://shiny-couscous-5bf47f87.pages.github.io/robustnesssafety.html">technical robustness and security pillar</a>. </i>
+<i> For more information on this subject, in particular regarding security and risks, one could also have a look at the 'security' section of the <a href="https://danone.github.io/daai.trustworthy-ai/robustnesssafety.html">technical robustness and security pillar</a>. </i>
 
 ## Identification of negative impacts
 Identifying, assessing, documenting and minimising potential negative impacts of an AI system is crucial for people (in)directly affected by AI systems. Impact assessments can be helpful to minimize negative impact. Assessments must be proportionate to the risks AI systems pose.
@@ -25,7 +25,7 @@ Some examples of negative impacts of AI are the following:
 - Human no longer in (direct) control to overlook situations.
 - Social/wealth polarization.
 
-<i> For more information on this subject, one could also have a look at the 'risk and criticality' section of the <a href="https://shiny-couscous-5bf47f87.pages.github.io/robustnesssafety.html">technical robustness and security pillar</a>. </i>
+<i> For more information on this subject, one could also have a look at the 'risk and criticality' section of the <a href="https://danone.github.io/daai.trustworthy-ai/robustnesssafety.html">technical robustness and security pillar</a>. </i>
 
 ## Ensure redress is possible
 When unjust adverse impact occurs, accessible mechanisms should be foreseen to ensure redress. National Human Rights structures (i.e. Ombudsmen and National Human Rights Institutions) can be such a source of redress, through rendering their own decisions in accordance with their respective mandates. 
