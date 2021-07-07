@@ -78,7 +78,15 @@ Practically, enforce [Danone's Data Science best practices](https://github.com/d
 Below are the recommendations directly reported from [EU](https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai).
 
 .. image:: ./_static/robustnesssafety_1.png
+    :width: 60%
+    :align: center
 
 .. image:: ./_static/robustnesssafety_2.png
+    :width: 60%
+    :align: center
 
 .. image:: ./_static/robustnesssafety_3.png
+    :width: 60%
+    :align: center
+
+-

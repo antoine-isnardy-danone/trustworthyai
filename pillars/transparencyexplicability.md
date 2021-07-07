@@ -97,7 +97,15 @@ Source: [[FR] Transparence et explicabilité des algorithmes, la grande confusio
 Below are the recommendations directly reported from [EU](https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai).
 
 .. image:: ./_static/transparency_1.png
+    :width: 60%
+    :align: center
 
 .. image:: ./_static/transparency_2.png
+    :width: 60%
+    :align: center
 
 .. image:: ./_static/transparency_3.png
+    :width: 60%
+    :align: center
+
+-

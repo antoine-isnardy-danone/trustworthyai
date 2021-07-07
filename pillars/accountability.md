@@ -31,3 +31,12 @@ Some examples of negative impacts of AI are the following:
 When unjust adverse impact occurs, accessible mechanisms should be foreseen to ensure redress. National Human Rights structures (i.e. Ombudsmen and National Human Rights Institutions) can be such a source of redress, through rendering their own decisions in accordance with their respective mandates. 
 
 Knowing that redress is possible when things go wrong is key to ensure trust.
+
+## Appendix - Recommendations from the EU
+Below are the recommendations directly reported from [EU](https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai).
+
+.. image:: ./_static/accountability_1.png
+    :width: 60%
+    :align: center
+
+-

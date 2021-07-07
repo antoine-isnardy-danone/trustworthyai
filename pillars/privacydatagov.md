@@ -41,3 +41,12 @@ As a general principle, only people with valid reasons should access each datase
 **Anonymization**: it is the process of protecting private or sensitive information by erasing or encrypting identifiers that connect an individual to stored data
 
 **Aggregation**: it is the process of aggregating several data entries together before ingesting in a system, to avoid using and accessing specific personal data
+
+## Appendix - Recommendations from the EU
+Below are the recommendations directly reported from [EU](https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai).
+
+.. image:: ./_static/privacy_1.png
+    :width: 60%
+    :align: center
+
+-

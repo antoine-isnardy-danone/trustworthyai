@@ -18,7 +18,11 @@ As stated by the EU, "human oversight ensures that an AI system does not undermi
 Below are the recommendations directly reported from [EU](https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai).
 
 .. image:: ./_static/human_1.png
+    :width: 60%
+    :align: center
 
 .. image:: ./_static/human_2.png
+    :width: 60%
+    :align: center
 
-
+-
