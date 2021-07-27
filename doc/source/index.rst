@@ -32,6 +32,7 @@ Content
    diversitynondiscrimination.rst
    environmentalsocietal.rst
    accountability.rst
+   bibliography.rst
 
 Going further
 -------------
