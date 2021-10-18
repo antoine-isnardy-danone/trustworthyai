@@ -19,7 +19,7 @@ sys.path.insert(0, os.path.abspath("../.."))
 # -- Project information -----------------------------------------------------
 
 project = "Trustworthy AI"
-copyright = "Danone 2021"
+copyright = "Danone, Datacraft, 2021"
 author = "DA&AI team"
 
 # -- General configuration ---------------------------------------------------

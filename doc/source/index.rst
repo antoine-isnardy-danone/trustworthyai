@@ -1,13 +1,9 @@
-.. image:: ./_static/danone.png
-    :width: 70%
-    :align: center
-
 Trustworthy AI
 --------------
 
 [Read time: 45 min]
 
-At Danone, we aim to act responsibly, create and promote an AI that is lawful, ethical, inclusive and robust.
+We aim to act responsibly, create and promote an AI that is lawful, ethical, inclusive and robust.
 It is important to ensure the protection of fundamental (human) rights and user safety.
 
 To that end, this document gathers a set of concrete guidelines, that are structured around 7 principles. Those
@@ -50,3 +46,7 @@ world surrounding AI:
 - What do we participate in ?
 
 - What are the shifts produced by our activity ?
+
+.. image:: ./_static/danone_datacraft.png
+    :width: 40%
+    :align: center

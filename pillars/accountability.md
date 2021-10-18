@@ -7,7 +7,7 @@ AI technologies can not be held responsible for their actions as they do not mee
 AI systems can not act freely, as there is human involvement in the creation, usage or monitoring of an AI system (in particular: developers, business and AI users). Consequently, these people are (legally and morally) responsible for the actions of an AI system.
 
 ## Evaluation by internal and external auditors
-Evaluation by internal (within Danone) and external (specialized agency) auditors and the availability of evaluation reports contribute to trustworthiness of AI. However, information about business models and intellectual property related to AI systems do not necessarily need to be open publicly. But in applications affecting fundamental rights, including safety critical applications, AI systems should be able to be independently audited.
+Evaluation by internal (within the company) and external (specialized agency) auditors and the availability of evaluation reports contribute to trustworthiness of AI. However, information about business models and intellectual property related to AI systems do not necessarily need to be open publicly. But in applications affecting fundamental rights, including safety critical applications, AI systems should be able to be independently audited.
 
 As a starting point for auditing AI, one could leverage [ISACA's COBIT (2019)](https://community.mis.temple.edu/mis5203sec001sp2019/files/2019/01/COBIT-2019-Framework-Introduction-and-Methodology_res_eng_1118.pdf) framework. Explanation of how to apply this framework for AI projects (including for example metrics) can be found in this [document](https://ec.europa.eu/futurium/en/system/files/ged/auditing-artificial-intelligence.pdf).
 
