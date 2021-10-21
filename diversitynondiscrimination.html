@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Diversity, non discrimination and fairness &#8212; Trustworthy AI  documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/bootstrap-sphinx.css" />
+    <link rel="stylesheet" type="text/css" href="_static/style.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Environmental and societal well-being" href="environmentalsocietal.html" />
+    <link rel="prev" title="Transparency and explicability" href="transparencyexplicability.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<script type="text/javascript" src="_static/js/jquery-1.12.4.min.js "></script>
+<script type="text/javascript" src="_static/js/jquery-fix.js "></script>
+<script type="text/javascript" src="_static/bootstrap-3.4.1/js/bootstrap.min.js "></script>
+<script type="text/javascript" src="_static/bootstrap-sphinx.js "></script>
+
+  </head><body>
+
+  <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">
+          Trustworthy AI</a>
+        <span class="navbar-text navbar-version pull-left"><b></b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="index.html">Documentation <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="human.html">Human oversight</a></li>
+<li class="toctree-l1"><a class="reference internal" href="privacydatagov.html">Privacy and data governance</a></li>
+<li class="toctree-l1"><a class="reference internal" href="robustnesssafety.html">Technical robustness and security</a></li>
+<li class="toctree-l1"><a class="reference internal" href="transparencyexplicability.html">Transparency and explicability</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Diversity, non discrimination and fairness</a></li>
+<li class="toctree-l1"><a class="reference internal" href="environmentalsocietal.html">Environmental and societal well-being</a></li>
+<li class="toctree-l1"><a class="reference internal" href="accountability.html">Accountability</a></li>
+<li class="toctree-l1"><a class="reference internal" href="bibliography.html">Bibliography</a></li>
+</ul>
+</ul>
+</li>
+              
+                <li class="dropdown">
+  <a role="button"
+     id="dLabelLocalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="#">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"
+      role="menu"
+      aria-labelledby="dLabelLocalToc"><ul>
+<li><a class="reference internal" href="#">Diversity, non discrimination and fairness</a><ul>
+<li><a class="reference internal" href="#ai-project-lifecycle">AI Project lifecycle</a></li>
+<li><a class="reference internal" href="#identification-metrics-and-ways-for-correcting-discrimination-bias-and-unfairness">Identification metrics and ways for correcting discrimination bias and unfairness</a></li>
+<li><a class="reference internal" href="#appendix-recommendations-from-the-eu">Appendix - Recommendations from the EU</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+              
+                
+  <li>
+    <a href="transparencyexplicability.html" title="Previous Chapter: Transparency and explicability"><span class="glyphicon glyphicon-chevron-left visible-sm"></span><span class="hidden-sm hidden-tablet">&laquo; Transparency ...</span>
+    </a>
+  </li>
+  <li>
+    <a href="environmentalsocietal.html" title="Next Chapter: Environmental and societal well-being"><span class="glyphicon glyphicon-chevron-right visible-sm"></span><span class="hidden-sm hidden-tablet">Environmental... &raquo;</span>
+    </a>
+  </li>
+              
+            
+            
+            
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="body col-md-12 content" role="main">
+      
+  <section id="diversity-non-discrimination-and-fairness">
+<h1>Diversity, non discrimination and fairness<a class="headerlink" href="#diversity-non-discrimination-and-fairness" title="Permalink to this headline">¶</a></h1>
+<p>AI contributors must foster the creation of bias-free AI systems and give themselves the means to reasonably arbitrage between performance and fairness, through the use of proper frameworks. We will discuss an AI project lifecycle through the eyes of fairness, and explain how one can detect discrimination through statistical methods.</p>
+<p>The following table shows guidelines for each phase of an AI project, so as to support AI contributors in the creation of bias-free AI systems.</p>
+<section id="ai-project-lifecycle">
+<h2>AI Project lifecycle<a class="headerlink" href="#ai-project-lifecycle" title="Permalink to this headline">¶</a></h2>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Project phase</p></th>
+<th class="head"><p>Guideline</p></th>
+<th class="head"><p>Practical consequences</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Ideation &amp; design</p></td>
+<td><p>At the start of the ideation &amp; design phase of an AI project, AI contributors must be aware of potential discrimination risks/breaches in an AI project and avoid initiating a project that discriminates on purpose. Stakeholders should always be involved throughout the whole project and must have complete trust &amp; understanding of the system and its risks.</p></td>
+<td><p><span class="raw-html-m2r"><ul><li>   Be aware of discrimination sensitive AI topics, such as:<ul><li>Police, crime prevention</li><li>Selection of employees and students</li><li>Advertising (Targeting specific people based on characteristics)</li><li>Price discrimination (charge customers differently based on characteristics)</li><li>Image & Search analysis</li><li>Translation tools (human biases in translation related to gender stereotypes)</li></ul></span><span class="raw-html-m2r"><li> Any system involving personal data must be reviewed carefully.</li></span><span class="raw-html-m2r"><li>AI systems must be built:<ul><li>Through an inclusive design process, so that stakeholders (<i> business but also individuals whose data is collected </i>) directly or indirectly affected by the AI system can understand and trust it. Practically: stakeholder’s feedback along the design process as well as during the run phase is necessary.</li></span><span class="raw-html-m2r"><li></span>Towards a non-discriminatory usage, namely, it must not be reserved to a subgroup of the society/entity/organisation.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Data collection &amp; preprocessing</p></td>
+<td><p>AI contributors must anticipate bias and question the risk of discrimination in the data collection and preprocessing of data (origin, gender, age, characteristics related to the brand image, …)</p></td>
+<td><p><span class="raw-html-m2r"><ul><li>Pay much attention to vulnerable demographics, for example: children, minorities, disabled persons, elderly persons, or immigrants.</li><li> Bias might come from history, incompleteness and/or bad governance data models. Any identifiable and discriminatory bias should be removed as much as possible in the data collection phase. </li><li> Ensure that the data is representative of the full population.  </li><li> Be careful when defining class labels and target variable. Poorly defining them might have an unwanted adverse impact on specific groups. <ul><li><b><i> Example:</b> AI system with the purpose to predict whether an employee is good or bad. This on its own is already an ill defined target variable. If one of the class labels then contains information on how late employees arrive are at work, then poorer people, living further away from the city, will be discriminated against for not being able to afford living in a city centre and thus having more traffic jams. </i></ul></span> <span class="raw-html-m2r"><li> Do not use proxies that might strongly correlate with fairness-related concepts (like protected characteristics)</li></span><span class="raw-html-m2r"><li> Do not select specific features that might introduce a bias against certain groups </li></span><span class="raw-html-m2r"><li> Do not use data (data collection) with a biased sampling procedure </li></span><span class="raw-html-m2r"><li> Do not use data (labelling examples) with a bias. This might occur when humans are manually labelling data and then feed that into the AI system. <ul><li><b><i> Example:</b> Consider an AI system to select good interview candidates. If we want to predict whether to select a candidate, and use data from the selection procedure when humans selected candidates, then there might be a bias in the manual selection procedure already, which an AI system will reproduce. </i></ul></li></span></p></td>
+</tr>
+<tr class="row-even"><td><p>AI system training</p></td>
+<td><p>While training (programming) AI models, AI contributors must carefully understand the system its mechanisms, analyze results on fairness and correct bias where needed.</p></td>
+<td><p><span class="raw-html-m2r"><ul><li> Bias might come from poorly defined constraints, bad decisions, wrong requirements. This can be counteracted by putting in place oversight processes</li><li> Ensure that individuals and minority groups are free from bias. <ul><li><b><i> Example:</b> Not hiring qualified woman or minorities. </i></ul></span> <span class="raw-html-m2r"><li> Positives and negatives resulting from AI should be evenly distributed, avoiding to place vulnerable demographics in a position of greater vulnerability. <ul><li><b> <i> Example:</b> Crime detection system that differentiates based on skin color or migration status. </i></ul></li></span></p></td>
+</tr>
+<tr class="row-odd"><td><p>AI system industrialisation</p></td>
+<td><p>While industrializing AI models, AI contributors must ensure that the AI’s system is fair and non-discriminative. Feedback loops should be put in place when the model is deployed and proper actions should be taken when there is a signal of discrimination.</p></td>
+<td><p><span class="raw-html-m2r"><ul><li> The output of an AI system should be continuously monitored on potential bias and discrimination. </li><li>Implement feedback loops to detect / anticipate / prevent drifts in the data, to prevent new bias in the data, model’s loss of performance, through the use of monitoring metrics</li><li>Implement fallback plans to prevent damages. <ul><li><b><i> Examples: </b> alerting, switch from statistical to rule-based procedures </i></ul></span><span class="raw-html-m2r"><li> If harm occurs, AI systems must provide users with effective redress, or effective remedy if data practices are no longer aligned with human beings’ individual or collective preferences. </li></span><span class="raw-html-m2r"><li>AI contributors must respect high standards of <a href="https://danone.github.io/daai.trustworthy-ai/accountability.html">accountability</a>. </li></span></p></td>
+</tr>
+</tbody>
+</table>
+<p>The steps in the aforementioned table should be supporting the AI contributor in their project. However, some of these guidelines are subject to human opinion and unfairness might be hard to detect. Therefore, several statistical metrics exist that might help in the identification of discrimination and correction of it. The following table discusses these metrics and shows already existing packages for their implementation.</p>
+</section>
+<section id="identification-metrics-and-ways-for-correcting-discrimination-bias-and-unfairness">
+<h2>Identification metrics and ways for correcting discrimination bias and unfairness<a class="headerlink" href="#identification-metrics-and-ways-for-correcting-discrimination-bias-and-unfairness" title="Permalink to this headline">¶</a></h2>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Topic</p></th>
+<th class="head"><p>Guideline</p></th>
+<th class="head"><p>Metrics</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Identification</p></td>
+<td><p>Quantify the risk of breach of fairness on identified sensitive populations, through the use of metrics</p></td>
+<td><p>One might use some of the following metrics for identification of discrimination:<span class="raw-html-m2r"><ul><li> <a href="https://github.com/Trusted-AI/AIF360/blob/master/aif360/metrics/classification_metric.py">Statistical parity difference</a>: the difference of the rate of favorable outcomes received by the unprivileged group to the privileged group. </li><li> <a href="https://github.com/Trusted-AI/AIF360/blob/master/aif360/metrics/classification_metric.py">Equal opportunity difference</a>: the difference of the true positive rates between the privileged and unprivileged groups. </li><li> <a href="https://github.com/Trusted-AI/AIF360/blob/master/aif360/metrics/classification_metric.py">Average odds difference </a>: the average difference of false positive rates (false positives/negatives) and true positive rate (true positives/positives) between unprivileged and privileged groups. </li><li> <a href="https://github.com/Trusted-AI/AIF360/blob/master/examples/demo_disparate_impact_remover.ipynb">Disparate impact </a>: the ratio of favorable outcome for the unprivileged group to that of the privileged group. </li><li> <a href="https://github.com/Trusted-AI/AIF360/blob/master/aif360/metrics/classification_metric.py">Theil index </a>: measures the inequality in benefit allocation for individuals. </li></ul></span>For a</p></td>
+</tr>
+<tr class="row-odd"><td><p>Correction</p></td>
+<td><p>After identification of bias, one might correct the bias through the use of algorithms</p></td>
+<td><p><span class="raw-html-m2r"><ul><li> As an example, one might use some of the following methods for correction of the bias:<ul><li> <a href="https://github.com/Trusted-AI/AIF360/blob/master/aif360/algorithms/preprocessing/reweighing.py">Reweighting</a>: use to mitigate bias in training data. Modifies weights of different training examples. </li><li> <a href="https://github.com/Trusted-AI/AIF360/blob/master/aif360/algorithms/preprocessing/optim_preproc.py">Optimized pre-processing</a>: mitigates bias in training data. Modifies training data features and labels. </li><li> <a href="https://github.com/Trusted-AI/AIF360/blob/master/aif360/algorithms/inprocessing/adversarial_debiasing.py">Adversarial debiasing</a>: mitigates bias in classifiers. Uses adversarial techniques to maximize accuracy and reduce evidence of protected attributes in predictions. </li><li><a href="https://github.com/Trusted-AI/AIF360/blob/master/aif360/algorithms/postprocessing/reject_option_classification.py">Reject option based classification</a>: mitigates bias in predictions. Changes predictions from a classifier to make them fairer. </li></ul></span></p></td>
+</tr>
+<tr class="row-even"><td><p>Already existing solutions (packages)</p></td>
+<td><p>Some open sources packages are created that might help in detection &amp; correction of unfairness in an AI system</p></td>
+<td><p><span class="raw-html-m2r"><ul><li> Please have a look at the following:<ul><li> <a href="https://aif360.mybluemix.net/">AI Fairness 360 by IBM</a> </li><li> <a href="ekimetrics/ethical-ai-toolkit: Open source experiments on bias, fairness & ethical AI frameworks (github.com)"> Ethical AI Toolkit (Github):</a> </li></ul></span></p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="appendix-recommendations-from-the-eu">
+<h2>Appendix - Recommendations from the EU<a class="headerlink" href="#appendix-recommendations-from-the-eu" title="Permalink to this headline">¶</a></h2>
+<p>Below are the recommendations directly reported from <a class="reference external" href="https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai">EU</a>.</p>
+<a class="reference internal image-reference" href="_images/diversity_1.png"><img alt="_images/diversity_1.png" class="align-center" src="_images/diversity_1.png" style="width: 60%;" /></a>
+<a class="reference internal image-reference" href="_images/diversity_2.png"><img alt="_images/diversity_2.png" class="align-center" src="_images/diversity_2.png" style="width: 60%;" /></a>
+<ul class="simple">
+<li></li>
+</ul>
+</section>
+</section>
+
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright Danone, Datacraft, 2021.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Technical robustness and security &#8212; Trustworthy AI  documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/bootstrap-sphinx.css" />
+    <link rel="stylesheet" type="text/css" href="_static/style.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Transparency and explicability" href="transparencyexplicability.html" />
+    <link rel="prev" title="Privacy and data governance" href="privacydatagov.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<script type="text/javascript" src="_static/js/jquery-1.12.4.min.js "></script>
+<script type="text/javascript" src="_static/js/jquery-fix.js "></script>
+<script type="text/javascript" src="_static/bootstrap-3.4.1/js/bootstrap.min.js "></script>
+<script type="text/javascript" src="_static/bootstrap-sphinx.js "></script>
+
+  </head><body>
+
+  <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">
+          Trustworthy AI</a>
+        <span class="navbar-text navbar-version pull-left"><b></b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="index.html">Documentation <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="human.html">Human oversight</a></li>
+<li class="toctree-l1"><a class="reference internal" href="privacydatagov.html">Privacy and data governance</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Technical robustness and security</a></li>
+<li class="toctree-l1"><a class="reference internal" href="transparencyexplicability.html">Transparency and explicability</a></li>
+<li class="toctree-l1"><a class="reference internal" href="diversitynondiscrimination.html">Diversity, non discrimination and fairness</a></li>
+<li class="toctree-l1"><a class="reference internal" href="environmentalsocietal.html">Environmental and societal well-being</a></li>
+<li class="toctree-l1"><a class="reference internal" href="accountability.html">Accountability</a></li>
+<li class="toctree-l1"><a class="reference internal" href="bibliography.html">Bibliography</a></li>
+</ul>
+</ul>
+</li>
+              
+                <li class="dropdown">
+  <a role="button"
+     id="dLabelLocalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="#">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"
+      role="menu"
+      aria-labelledby="dLabelLocalToc"><ul>
+<li><a class="reference internal" href="#">Technical robustness and security</a><ul>
+<li><a class="reference internal" href="#development-robustness">Development robustness</a></li>
+<li><a class="reference internal" href="#data-project-lifecycle-safety">Data project lifecycle safety</a></li>
+<li><a class="reference internal" href="#security">Security</a></li>
+<li><a class="reference internal" href="#appendix-recommendations-from-the-eu">Appendix - Recommendations from the EU</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+              
+                
+  <li>
+    <a href="privacydatagov.html" title="Previous Chapter: Privacy and data governance"><span class="glyphicon glyphicon-chevron-left visible-sm"></span><span class="hidden-sm hidden-tablet">&laquo; Privacy and d...</span>
+    </a>
+  </li>
+  <li>
+    <a href="transparencyexplicability.html" title="Next Chapter: Transparency and explicability"><span class="glyphicon glyphicon-chevron-right visible-sm"></span><span class="hidden-sm hidden-tablet">Transparency ... &raquo;</span>
+    </a>
+  </li>
+              
+            
+            
+            
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="body col-md-12 content" role="main">
+      
+  <section id="technical-robustness-and-security">
+<h1>Technical robustness and security<a class="headerlink" href="#technical-robustness-and-security" title="Permalink to this headline">¶</a></h1>
+<section id="development-robustness">
+<h2>Development robustness<a class="headerlink" href="#development-robustness" title="Permalink to this headline">¶</a></h2>
+<p>AI contributors must comply with development standards to ease reliability, readability of procedures and handovers.</p>
+<p>Practically, enforce development best practices, that lie among:</p>
+<ul class="simple">
+<li><p>Code documentation</p></li>
+<li><p>Unit tests</p></li>
+<li><p>Data tests</p></li>
+<li><p>Pipeline tests</p></li>
+<li><p>Code reviews</p></li>
+<li><p>Use of linter</p></li>
+<li><p>Use of formatters</p></li>
+</ul>
+</section>
+<section id="data-project-lifecycle-safety">
+<h2>Data project lifecycle safety<a class="headerlink" href="#data-project-lifecycle-safety" title="Permalink to this headline">¶</a></h2>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Project phase</p></th>
+<th class="head"><p>Guideline</p></th>
+<th class="head"><p>Practical consequences</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Data collection &amp; preprocessing</p></td>
+<td><p>AI contributors must account for potential biases and not introduce additional ones while preprocessing data and/or imputing missing values, leveraging data augmentation, …</p></td>
+<td><p><span class="raw-html-m2r"><ul><li>Deeply understand the business process behind the data generation process, thanks to extensive discussion with business partners:<ul><li><b>When</b> was the data collected? (One-shot vs long period, ...)</li><li><b>Who</b> collected the data? (General-purpose team vs task-specific team)</li><li><b>What</b> was targeted? (Precise subset vs random set, is the dataset representative of the the challenge that is being tackled?)</li><li><b>How</b> was the data collected? (Manually, sensors, ...)</li></ul></span><span class="raw-html-m2r"><li>Conduct descriptive analysis (univariate analysis, multivariate analysis, statistical testing)</li></span><span class="raw-html-m2r"><li>Document treatments</li></span><span class="raw-html-m2r"><li>Prevent from adding unlawful or illegitimate features (example: sex for a granting score, …)</li></span></p></td>
+</tr>
+<tr class="row-odd"><td><p>AI system training</p></td>
+<td><p>While training AI models, AI contributors must carefully understand model’s underlying mechanisms, carefully calibrate them, and carefully analyze results</p></td>
+<td><p><span class="raw-html-m2r"><ul><li>Not only compute a single aggregated performance metrics (<a href="https://en.wikipedia.org/wiki/Coefficient_of_determination">R2</a>, <a href="https://en.wikipedia.org/wiki/Precision_and_recall">precision</a>, <a href="https://en.wikipedia.org/wiki/Precision_and_recall">recall</a>, <a href="https://en.wikipedia.org/wiki/Precision_and_recall">accuracy</a>, or any other <a href="https://scikit-learn.org/stable/modules/model_evaluation.html">model evaluation metrics</a>…), but also carefully analyze result’s dispersion, and focus on large errors. For instance, while doing forecast, not only quantitatively refer to <a href="https://en.wikipedia.org/wiki/Root-mean-square_deviation">RMSE</a> / <a href="https://en.wikipedia.org/wiki/Mean_absolute_percentage_error">MAPE</a> / <a href="https://en.wikipedia.org/wiki/Symmetric_mean_absolute_percentage_error">SMAPE</a> / …, but also to qualitative measurements or representations like predictions vs reality</li><li>Leverage uncertainty for predictions. Examples: <a href="https://facebook.github.io/prophet/docs/quick_start.html">Prophet</a>, <a href="https://github.com/simai-ml/MAPIE/tree/master/mapie">MAPIE</a>, <a href="https://docs.pymc.io/">pyMC3</a></li></ul></span></p></td>
+</tr>
+<tr class="row-even"><td><p>AI system industrialisation</p></td>
+<td><p>While industrialising AI models, AI contributors must ensure AI system’s sustainability</p></td>
+<td><p><span class="raw-html-m2r"><ul><li>Question generalization: whether training data are a relevant proxy of what is likely to happen while predicting with the trained model on new data</li><li>Implement reproducibility so that tracing back the root cause of anomalies is feasible. One solution: <a href="https://mlflow.org/">MLFlow</a></li><li>Implement feedback loops to detect / anticipate / prevent drifts in the data, to prevent new bias in the data, model’s loss of performance, through the use of monitoring metrics</li><li>Implement fallback plans to prevent damages. Examples: alerting, switch from statistical to rule-based procedures</li></ul></span></p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="security">
+<h2>Security<a class="headerlink" href="#security" title="Permalink to this headline">¶</a></h2>
+<p>Artificial Intelligence is no exception when it comes to security: AI systems are exposed to a wide range of attacks. Consequently, AI contributors must be sensitised to Machine Learning security and enforce security audits, especially when humans are impacted by an AI system decision. Attacks lie among:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Attack</p></th>
+<th class="head"><p>Description</p></th>
+<th class="head"><p>Defense</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Data poisoning</p></td>
+<td><p>Malicious individuals access data they’re not authorized to and alter them before an AI system training (in the case of a credit score e.g., change the target from “deny” to “accept” for a certain subset of the population)</p></td>
+<td><p><span class="raw-html-m2r"><ul><li><b>Disparate impact analysis</b> to study positive or negative discriminations (see the non discrimination section)</li><li><b>RONI</b>: reject on negative impact. Remove any individual from the training set that would make the accuracy abnormally decrease</li><li><b>Self reflection</b>: look for abnormal beneficial predictions</li></ul></span></p></td>
+</tr>
+<tr class="row-odd"><td><p>Backdoors and watermarks</p></td>
+<td><p>Code of an AI system is compromised by malicious individuals so that water-marked data can lead the faulty AI system to produce desired outcome (if the AI system is a decision tree e.g., add a faulty leaf that would output a compromised decision)</p></td>
+<td><p><span class="raw-html-m2r"><ul><li><b>Version control</b>: AI system code must be versioned through a version control tool, most likely Git</li><li><b>Data integrity constraints</b> not to allow unrealistic combinations of data</li></ul></span></p></td>
+</tr>
+<tr class="row-even"><td><p>Surrogate model inversion</p></td>
+<td><p>If an AI system is served through an API, malicious individuals can simulate data, query the API and receive predictions from the AI system, and in turn build a surrogate model that could: <span class="raw-html-m2r"><ul><li>Expose the business logic</li><li>Reveal sensitive information regarding the data that were used to train the AI system</li><li>Facilitate a membership inference attack</li><li>Facilitate production of adversarial examples</li></ul></span></p></td>
+<td><p><span class="raw-html-m2r"><ul><li><b>Authentication</b>: authenticate API users, or more generally any endpoint that would give access to the AI system predictions</li><li><b>Throttling</b>: decrease response time of the API so that malicious individuals can only access a limited number of predictions</li><li><b>White-hat surrogate</b>: act as a hacker and train a surrogate model to collect learnings about what malicious individuals could have access to</li></ul></span></p></td>
+</tr>
+<tr class="row-odd"><td><p>Membership inference</p></td>
+<td><p>If an AI system is served through an API, malicious individuals could know if an individual / a row was present in the training dataset, and in turn violate individual or group privacy, by:<span class="raw-html-m2r"><ul><li>Training a surrogate model (see above)</li><li>Simulating new data points and scoring them with the surrogate model</li><li>Training a new model that discriminates between data points present in the training set or not</li></ul></span></p></td>
+<td><p><span class="raw-html-m2r"><ul><li>Above defense</li><li><b>Prediction monitoring</b>: monitor data used to query the API and check similarity with training data</li></ul></span></p></td>
+</tr>
+<tr class="row-even"><td><p>Adversarial example</p></td>
+<td><p>If an AI system is served through an API, malicious individuals can simulate data, query the API, get predictions and in turn learn how to trick the AI system to receive a desired outcome</p></td>
+<td><p><span class="raw-html-m2r"><ul><li>Above defense</li><li><b>White-hat sensitivity analysis</b>: try to trick the AI system with different input values</li></ul></span></p></td>
+</tr>
+</tbody>
+</table>
+<p>Source: <a class="reference external" href="https://github.com/h2oai/ml-security-audits">H20AI</a></p>
+</section>
+<section id="appendix-recommendations-from-the-eu">
+<h2>Appendix - Recommendations from the EU<a class="headerlink" href="#appendix-recommendations-from-the-eu" title="Permalink to this headline">¶</a></h2>
+<p>Below are the recommendations directly reported from <a class="reference external" href="https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai">EU</a>.</p>
+<a class="reference internal image-reference" href="_images/robustnesssafety_1.png"><img alt="_images/robustnesssafety_1.png" class="align-center" src="_images/robustnesssafety_1.png" style="width: 60%;" /></a>
+<a class="reference internal image-reference" href="_images/robustnesssafety_2.png"><img alt="_images/robustnesssafety_2.png" class="align-center" src="_images/robustnesssafety_2.png" style="width: 60%;" /></a>
+<a class="reference internal image-reference" href="_images/robustnesssafety_3.png"><img alt="_images/robustnesssafety_3.png" class="align-center" src="_images/robustnesssafety_3.png" style="width: 60%;" /></a>
+<ul class="simple">
+<li></li>
+</ul>
+</section>
+</section>
+
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright Danone, Datacraft, 2021.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>
