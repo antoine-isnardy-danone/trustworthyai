@@ -1,18 +1,17 @@
 # Privacy and data governance
 Trustworthy AI must ensure that privacy, as a fundamental right, is respected for all parties – users, individuals targeted or employees. Quality and integrity of the data must also be protected, and access to data must be regulated.
 
-## Respect for privacy and data Protection
+## Respect for privacy and data protection
 Any system gathering data must ensure that the consent of the user is respected, and his privacy protected.
 
-Concretely it means :
--	Data must be collected via lawful and secure process 
--	Minimization principle: data collected should be limited to the smallest scope possible regarding personal or sensitive data. When personal or sensitive sources are added in a model, the benefits/risks ratio must be evaluated, in collaboration with DPO. Data collected should not only be correlated but have a clear causality link with the expected output
--	People should be aware when their personal data is collected, and whenever possible should be able to give valid consent and revoke collection
--	Any kind of personal scoring can endanger the principle of non-discrimination, and should be avoided unless it has a clear justification, and the usage is proportionate and fair
--	Personal information should never be available at any point of the AI lifecycle. In particular prediction of gender, health, sexual orientation or any other personal information should be banned, even as a temporary step
--	Data collection and data transformation must be fully documented and validated by appropriate instances (DPO) 
--	Data should be as much as possible encrypted, anonymized or aggregated (see definition section). You can find online some [hashing python libraries]. Raw personal data should never be used directly in a model
--	An internal process must be put in place to raise issues related to privacy or data protection. A referent person should be named
+Concretely, it means setting up the following lawful & secure process upon a new business objective involving personal (PII) or health data (PHI):
+
+| Step  | Description |
+|---|---|
+| Data classification  | Document the kind of data that is being collected: does it include PII or PHI or both? |
+| Minimization principle| Data collected must be limited to the smallest scope possible regarding personal or sensitive data. When personal or sensitive sources are added to an AI system, the benefits/risks ratio must be evaluated, in collaboration with DPO. Data collected should not only be correlated but have a clear causality link with the expected output. |
+| Legal base of the business objective | Specify the legal framework to which the use case is bind: <ul><li>Fill out a DPIA that describes the end-goal of the treatment, what data are collected and how they are being transformed.</li><li>Comply to the existing (or implement a) legal basis regarding e.g. cookie consent, legitimate interest, so that "people" are aware what their personal data are collected for, and can grant consent or revoke it at any time.</li><li>In case of partnership with an external provider, fill out a DPA.</li></ul>|
+| Data handling policy | Document & implement security measures: <ul><li>Organisational measures: make sure the chain of treatments is approved by the DPO</li><li>Technical measures:<ul><li>Make sure to benefit from an approved architecture that can host sensitive information</li><li>Personal information should never be available at any point of the AI lifecycle. In particular prediction of gender, health, sexual orientation should be banned, even as a temporary step</li><li>Data should be as much as possible encrypted, anonymized or aggregated (see definition section). You can find online some [hashing python libraries]. Raw personal data should never be used directly in a model</li></ul></li></ul> |
 
 [hashing python libraries]: https://docs.python.org/3/library/hashlib.html
 
