@@ -77,7 +77,7 @@
       role="menu"
       aria-labelledby="dLabelLocalToc"><ul>
 <li><a class="reference internal" href="#">Privacy and data governance</a><ul>
-<li><a class="reference internal" href="#respect-for-privacy-and-data-protection">Respect for privacy and data Protection</a></li>
+<li><a class="reference internal" href="#respect-for-privacy-and-data-protection">Respect for privacy and data protection</a></li>
 <li><a class="reference internal" href="#quality-and-integrity-of-data">Quality and integrity of data</a></li>
 <li><a class="reference internal" href="#access-to-data">Access to data</a></li>
 <li><a class="reference internal" href="#definitions">Definitions</a></li>
@@ -129,19 +129,37 @@
 <h1>Privacy and data governance<a class="headerlink" href="#privacy-and-data-governance" title="Permalink to this headline">¶</a></h1>
 <p>Trustworthy AI must ensure that privacy, as a fundamental right, is respected for all parties – users, individuals targeted or employees. Quality and integrity of the data must also be protected, and access to data must be regulated.</p>
 <section id="respect-for-privacy-and-data-protection">
-<h2>Respect for privacy and data Protection<a class="headerlink" href="#respect-for-privacy-and-data-protection" title="Permalink to this headline">¶</a></h2>
+<h2>Respect for privacy and data protection<a class="headerlink" href="#respect-for-privacy-and-data-protection" title="Permalink to this headline">¶</a></h2>
 <p>Any system gathering data must ensure that the consent of the user is respected, and his privacy protected.</p>
-<p>Concretely it means :</p>
-<ul class="simple">
-<li><p>Data must be collected via lawful and secure process</p></li>
-<li><p>Minimization principle: data collected should be limited to the smallest scope possible regarding personal or sensitive data. When personal or sensitive sources are added in a model, the benefits/risks ratio must be evaluated, in collaboration with DPO. Data collected should not only be correlated but have a clear causality link with the expected output</p></li>
-<li><p>People should be aware when their personal data is collected, and whenever possible should be able to give valid consent and revoke collection</p></li>
-<li><p>Any kind of personal scoring can endanger the principle of non-discrimination, and should be avoided unless it has a clear justification, and the usage is proportionate and fair</p></li>
-<li><p>Personal information should never be available at any point of the AI lifecycle. In particular prediction of gender, health, sexual orientation or any other personal information should be banned, even as a temporary step</p></li>
-<li><p>Data collection and data transformation must be fully documented and validated by appropriate instances (DPO)</p></li>
-<li><p>Data should be as much as possible encrypted, anonymized or aggregated (see definition section). You can find online some <a class="reference external" href="https://docs.python.org/3/library/hashlib.html">hashing python libraries</a>. Raw personal data should never be used directly in a model</p></li>
-<li><p>An internal process must be put in place to raise issues related to privacy or data protection. A referent person should be named</p></li>
-</ul>
+<p>Concretely, it means setting up the following lawful &amp; secure process upon a new business objective involving personal identifiable information (PII) or personal health information (PHI):</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Step</p></th>
+<th class="head"><p>Description &amp; action</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Business objective</p></td>
+<td><p>What is the end business goal of the analytical initiative? <span class="raw-html-m2r"><i>This step conditions everything else as a strategy is derived to design the relevant AI system to answer the business challenge.</i></span></p></td>
+</tr>
+<tr class="row-odd"><td><p>Pre-work: data classification</p></td>
+<td><p>Document the kind of data that needs to be collected: does it include PII or PHI or both?</p></td>
+</tr>
+<tr class="row-even"><td><p>Pre-work: minimization principle</p></td>
+<td><p><span class="raw-html-m2r"><ul><li>Data collected must be limited to the smallest scope possible regarding personal or sensitive information: by default, a <i>discard all information</i> policy should be implemented; (sensitive) information should be added upon strong justification (see below).</li><li>When it is intended to add such personal or sensitive information to an AI system, the benefits/risks ratio must be evaluated, in collaboration with DPO. </li></ul></span></p></td>
+</tr>
+<tr class="row-odd"><td><p>Legal base of the business objective</p></td>
+<td><p>Specify the legal framework to which the use case is bound: <span class="raw-html-m2r"><ul><li>Fill out a Data Protection Impact Assessment ([DPIA]) that describes the end-goal of the treatment, what data are collected and how they are being transformed.</li><li>Comply to an existing (or implement a) [legal basis] regarding e.g. cookie consent, legitimate interest, so that "data subjects" are informed what their personal data are collected for, and can grant consent or revoke it at any time.</li><li>In case of partnership(s) with external provider(s), fill out a Data Processing Agreement ([DPA]).</li></ul></span></p></td>
+</tr>
+<tr class="row-even"><td><p>Data handling policy</p></td>
+<td><p>Document &amp; implement security measures: <span class="raw-html-m2r"><ul><li>Organisational measures: make sure the chain of treatments implemented by an AI system is approved by the DPO</li><li>Technical measures:<ul><li>Make sure to benefit from a certified architecture that can host sensitive information</li><li>Personal information should never be available "in clear" at any point of the AI system lifecycle, unless contraindicated for motivated reasons. In particular gender, health condition, sexual orientation should be banned, even as a temporary step</li><li>Data should be as much as possible encrypted, anonymized or aggregated (see definition section). You can find online some [hashing python libraries]. Raw personal data should never be used directly in a model</li></ul></span>&lt;/li&gt;&lt;/ul&gt;</p></td>
+</tr>
+</tbody>
+</table>
 </section>
 <section id="quality-and-integrity-of-data">
 <h2>Quality and integrity of data<a class="headerlink" href="#quality-and-integrity-of-data" title="Permalink to this headline">¶</a></h2>
