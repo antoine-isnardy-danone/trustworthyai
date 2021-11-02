@@ -1,9 +1,9 @@
 # Trustworthy AI
 
-![ci workflow](https://github.com/danone/daai.trustworthy-ai/workflows/ci/badge.svg)
+![ci workflow](https://github.com/datacraft-paris/trustworthyai/actions/workflows/cd.yml/badge.svg)
 
 
-Welcome to DA&AI Trustworthy AI repository.
+Welcome to Trustworthy AI repository.
 
 ## Use
 
