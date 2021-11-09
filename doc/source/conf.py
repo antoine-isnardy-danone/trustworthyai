@@ -59,6 +59,7 @@ exclude_patterns = []
 #
 html_theme = "bootstrap"
 html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
+html_js_files = ["language_data.js"]
 html_theme_options = {
     "bootswatch_theme": "yeti",
     "navbar_site_name": "Documentation",
