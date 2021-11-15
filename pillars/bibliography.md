@@ -16,6 +16,8 @@
 
 ## Fairness Python libraries
 
+- [Tutorial: breaking myths about AI fairness](https://towardsdatascience.com/tutorial-breaking-myths-about-ai-fairness-the-case-of-biased-automated-recruitment-9ee9b2ecc3a)
+
 - [AIF 360](https://github.com/Trusted-AI/AIF360)
 
 - [Fairlearn](https://github.com/fairlearn/fairlearn)
@@ -41,6 +43,8 @@
 - [Various attacks (H2OAI)](https://github.com/h2oai/ml-security-audits)
 
 ## Environmental impact
+
+- [[FR] IA durable et sobriété numérique : ce que les professionnels de la donnée peuvent faire](https://medium.com/quantmetry/ia-durable-et-sobri%C3%A9t%C3%A9-num%C3%A9rique-ce-que-les-professionnels-de-la-donn%C3%A9e-peuvent-faire-5782289b73cc)
 
 - [MLCO2: compute CO2 impact](https://mlco2.github.io/impact/#compute)
 
